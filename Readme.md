@@ -56,7 +56,7 @@ To run this project, first change the mongodb url to your url and then follow th
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/Knucklehead27/Microservice.git>
    cd <project-directory>
 2. **Run Each service**:
    ```cmd
