@@ -1,0 +1,15 @@
+eureka:
+    instance:
+        hostname: localhost
+        statusPageUrlPath: /actuator/info
+        healthCheckUrlPath: /actuator/health
+        preferIpAddress: true
+        prefer-ip-address: true
+    client:
+        register-with-eureka: false
+        fetch-registry: false
+
+server:
+    port: 8761
+
+
