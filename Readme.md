@@ -35,11 +35,11 @@ These concerns should be addressed across all services:
 
 ## Deliverables
 1. **Microservices Design**:
-      Auth service: For admin login and registration using Nodejs running at port 7070.
-      Product service: For Adding a product, deleting a product, List of Product, Edit the details of a product, and getting a product by Id using Nodejs running at port 8080.
-      Order service: For add to cart, getting product details from another Product service using axios library and checkout Functionality using Nodejs running at port 6060.
-      Eureka service Discovery using spring initializer running at port 8761.
-      ApiGateway using Ocelot-Dotnet running at port 5000.
+   - Auth service: For admin login and registration using Nodejs running at port 7070.
+   - Product service: For Adding a product, deleting a product, List of Product, Edit the details of a product, and getting a product by Id using Nodejs running at port 8080.
+   - Order service: For add to cart, getting product details from another Product service using axios library and checkout Functionality using Nodejs running at port 6060.
+   - Eureka service Discovery using spring initializer running at port 8761.
+   - ApiGateway using Ocelot-Dotnet running at port 5000.
 2. **API Definitions**:
    - Auth Service
       - Register: Post service, localhost:7070/auth/register provide correct email and password in JSON.
